@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+	<style>
+		.header{
+			background-color: #191970;
+			height: 100px;
+			width: 100%;
+		}
+		.add{
+			margin-left: 70px; 
+			background-color: #708090;
+			height: 40px;
+			width: 1000px;
+		}
+		.scroll{
+			margin-left: 70px;
+			background-color: #D3D3D3;
+			height: 500px;
+			width: 1000px;
+		}
+		.btn{
+			background-color: #696969;
+			color: white;
+			height: 50px;
+			width: 180px;
+			border-radius: 15px;
+			border: none;
+		}
+	</style>
+	<div class="header">
+		<img src="favicons/logo2.png">
+	</div>
+</head>
+<body style="background-color: #DCDCDC;">
+	<br><br>
+	<div class="add">
+		<h2>Address:</h2></div>
+		<div class="scroll"><br>
+			<table style="margin-left: 20px;">
+				<tr style="height: 60px;">
+			<td>Name :</td><td><input type="text" name="Name" placeholder="Full Name" style="height: 30px;"></td>
+			<td>	</td>
+			<td>Mobile no.</td><td><input type="digits" name="Mobile" placeholder="10 digit Mob no." style="height: 30px;"></td>
+		</tr>
+		<tr style="height: 60px;">
+			<td>PIN code :</td><td><input type="digits" name="PIN" placeholder="ex-147001" style="height: 30px;"></td>
+			<td></td>
+			<td>Locality :</td><td><input type="text" name="Locality" placeholder="Locality" style="height: 30px;"></td>
+		</tr>
+		<tr style="height: 100px;">
+			<td>Address :</td><td colspan="3"><textarea placeholder="house,street" style="height: 65px; width: 400px;"></textarea></td>
+		</tr>
+		<tr style="height: 60px;">
+			<td>Landmark :</td><td><input type="text" name="Landmark" placeholder="(optional)" style="height: 30px;"></td>
+			<td></td>
+			<td>Additional Mob. no.</td><td><input type="numbers" name="Additional" placeholder="(optional)" style="height: 30px;"></td>
+		</tr>
+		<tr style="height: 60px;"><td>Address type:</td>
+			<td><input type="radio" name="select">Home</td><td><input type="radio" name="select">Work</td>
+		</tr>
+		<tr style="height: 60px;">
+			<td></td>
+			<td><button class="btn">Submit</button>
+		</div>
+	</body>
+</html>
